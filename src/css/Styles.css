@@ -1,0 +1,118 @@
+/* Importação da fonte Lobster */
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+/* Importação das fontes Pacifico e Quicksand */
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+.custom-text {
+  font-family: "Pacifico", cursive;
+}
+
+.quicksand-font {
+  font-family: "Quicksand", sans-serif;
+}
+
+body,
+p,
+span {
+  font-family: "Quicksand", sans-serif;
+}
+
+/* Estilo global para aplicar Lobster onde for necessário */
+.lobster-font {
+  font-family: "Lobster", cursive;
+}
+
+/* Header personalizado */
+.menu-header {
+  color: white; /* Cor da fonte */
+  background: linear-gradient(
+    to bottom,
+    #f73a7f,
+    #ffffff
+  ); /* Gradiente rosa para branco */
+  height: 172px; /* Altura do header */
+}
+
+.menu-header .ui.menu {
+  background: transparent; /* Fundo transparente para manter o gradiente */
+  border: none; /* Remove bordas padrão */
+  box-shadow: none !important; /* Remove qualquer sombra */
+  border-bottom: none !important; /* Remove a borda inferior */
+}
+
+.menu-header .ui.menu .item {
+  color: white; /* Cor dos links no header */
+  font-weight: bold;
+  transition: color 0.3s ease; /* Transição suave para o hover */
+}
+
+.menu-header .ui.menu .item:hover {
+  color: #ffe1ec; /* Cor de hover dos links */
+}
+
+.menu-header .ui.menu .button {
+  background-color: #ff799b; /* Botão rosa suave */
+  color: white;
+  border-radius: 20px; /* Deixa o botão mais arredondado */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Suaviza o hover e adiciona um efeito ao clicar */
+}
+
+.menu-header .ui.menu .button:hover {
+  background-color: #ff4a70; /* Rosa mais escuro no hover */
+  transform: scale(1.05); /* Leve aumento no hover */
+}
+
+.menu-header .ui.menu .button:active {
+  transform: scale(0.95); /* Efeito de clique */
+}
+
+.product-card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Ícone de Favorito */
+.favorite-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: whitesmoke !important;
+}
+
+/* Estilo para o kicker */
+.kicker {
+  display: block;
+  font-size: 1rem;
+  margin-top: 0.2rem;
+  color: white;
+  font-family: 'Quicksand', sans-serif; /* Certifique-se de que a fonte está correta */
+}
+
