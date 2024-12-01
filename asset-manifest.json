@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cupcake-frontend/static/css/main.4fe1a5ef.css",
-    "main.js": "/cupcake-frontend/static/js/main.d6ca1719.js",
+    "main.js": "/cupcake-frontend/static/js/main.1623a83b.js",
     "static/js/453.13f6b17f.chunk.js": "/cupcake-frontend/static/js/453.13f6b17f.chunk.js",
     "static/media/brand-icons.svg": "/cupcake-frontend/static/media/brand-icons.6729d29753e000c17489.svg",
     "static/media/icons.svg": "/cupcake-frontend/static/media/icons.62d9dae4e0040e81c980.svg",
@@ -28,11 +28,11 @@
     "static/media/outline-icons.woff2": "/cupcake-frontend/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "index.html": "/cupcake-frontend/index.html",
     "main.4fe1a5ef.css.map": "/cupcake-frontend/static/css/main.4fe1a5ef.css.map",
-    "main.d6ca1719.js.map": "/cupcake-frontend/static/js/main.d6ca1719.js.map",
+    "main.1623a83b.js.map": "/cupcake-frontend/static/js/main.1623a83b.js.map",
     "453.13f6b17f.chunk.js.map": "/cupcake-frontend/static/js/453.13f6b17f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4fe1a5ef.css",
-    "static/js/main.d6ca1719.js"
+    "static/js/main.1623a83b.js"
   ]
 }
